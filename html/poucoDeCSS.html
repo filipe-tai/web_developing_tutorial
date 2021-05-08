@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Um pouco de CSS</title>
+    <link rel="stylesheet" href="poucoDeCSS.css">
+    <!--instanciar o ficheiro e usar o seu conteúdo-->
+    <style>
+        /*aplicar o estilos diretamente nas TAGs ao identificar com o nome. Ex: h1, span {}*/
+        
+        h1 {
+            font-size: 20px;
+        }
+        /*para criar uma class, o nome deve ser ".nomeDaClasse"*/
+        
+        .fundoVermelho {
+            background-color: #C00;
+            /*sistema rgb (red, green, blue)*/
+        }
+        
+        .negrito {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS</h1>
+    <span id="textoPrincial">Texto 1</span><br><br><br>
+    <!--foi aplicado um style diretamente ao Id desta tag. Foi definido no ficheiro "poucoDeCSS.css"-->
+    <span class="fundoVermelho negrito">Texto 2</span><br><br>
+    <!--são aplicadas duas classes nesta TAG. As classes são estilos CSS criados e aplicados às tags-->
+    <span class="fundoVermelho" wm-atrib>Texto 3</span>
+</body>
+
+</html>

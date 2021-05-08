@@ -1,0 +1,12 @@
+/*criar um estilo e aplicar a um determinado Id, é através do #Id*/
+
+#textoPrincial {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    color: rgb(45, 127, 235)
+}
+
